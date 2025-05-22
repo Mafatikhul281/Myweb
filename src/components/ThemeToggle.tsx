@@ -40,7 +40,7 @@ const ThemeToggle: React.FC = () => {
           transition: "transform 0.3s ease",
         }}
       >
-        {isDark ? <FaMoon size={14} /> : <FaSun size={14} />}
+        {not isDark ? <FaMoon size={14} /> : <FaSun size={14} />}
       </div>
     </button>
   );

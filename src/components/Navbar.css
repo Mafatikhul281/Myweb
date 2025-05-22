@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #24283b;
+  padding: 12px 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 24px;
+}
+
+.navbar a {
+  color: #c0caf5;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #7aa2f7;
+}
+
+.navbar a.active {
+  color: #bb9af7;
+  border-bottom: 2px solid #bb9af7;
+  padding-bottom: 2px;
+}

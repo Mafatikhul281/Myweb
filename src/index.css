@@ -1,0 +1,67 @@
+.dark body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #1a1b26;
+  color: #c0caf5;
+  padding: 20px;
+}
+.dark .container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #24283b;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+}
+
+.dark .navbar {
+  background-color: #24283b;
+}
+
+.dark a {
+  color: #7aa2f7;
+  text-decoration: none;
+}
+
+.dark a:hover {
+  color: #bb9af7;
+}
+
+.dark h1, h2 {
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #e6e8f0; /* abu terang, bukan putih polos */
+  color: #1a1b26;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #ffffff; /* putih bersih biar kontras */
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15); /* shadow lebih tegas */
+}
+
+.navbar {
+  background-color: #ffffff; /* sama dengan container */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* sedikit bayangan */
+}
+
+a {
+  color: #3b5bdb; /* biru kalem */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5f1ab7; /* ungu kalem */
+}
+
+h1, h2 {
+  margin-top: 0;
+}

@@ -15,7 +15,7 @@ const ThemeToggle: React.FC = () => {
       style={{
         display: "flex",
         alignItems: "center",
-        justifyContent: isDark ? "flex-end" : "flex-start",
+        justifyContent: isDark ? "flex-start" : "flex-end",
         backgroundColor: isDark ? "#222" : "#f5f5f5",
         border: "none",
         borderRadius: "999px",
